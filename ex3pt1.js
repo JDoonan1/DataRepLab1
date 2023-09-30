@@ -1,5 +1,7 @@
+// Create empty array and asign it to the variable myArray
 myArray = [];
 
+//function addTask takes parameter task
 let addTask = (task) => {
     //push or adds a task to the top of the list
     myArray.push(task);
@@ -9,7 +11,8 @@ let addTask = (task) => {
 }
 //prints out all items that was added in the addTask function
 let listAllTasks = () => {
-    myArray.forEach((item) => {
+   //forEach itterates over myArray 
+        myArray.forEach((item) => {
         console.log(item);
     })
 }
